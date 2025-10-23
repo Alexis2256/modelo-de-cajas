@@ -1,0 +1,55 @@
+/* ========================================
+   ESTILOS GLOBALES
+   ======================================== */
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ========================================
+   FUENTES PERSONALIZADAS
+   ======================================== */
+
+/* Fuente Eater para títulos especiales */
+.texto {
+    font-family: "Eater", serif;
+}
+
+
+/* ========================================
+   UTILIDADES PERSONALIZADAS
+   ======================================== */
+
+/* Sombra de texto personalizada para el header */
+.text-shadow-custom {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Grid auto-flow dense */
+.grid-auto-flow-dense {
+    grid-auto-flow: dense;
+}
+
+/* Grid rows para items de uso */
+.item-uso-1,
+.item-uso-2,
+.item-uso-3,
+.item-uso-4,
+.item-uso-5,
+.item-uso-6 {
+    grid-template-rows: auto minmax(150px, auto);
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+/* Ajuste de altura mínima automática */
+.auto-rows-min {
+    grid-auto-rows: minmax(150px, auto);
+}
+
+
+
